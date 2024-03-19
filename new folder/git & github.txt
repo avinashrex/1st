@@ -1,0 +1,18 @@
+First download and install Git & verify it by "git -v"
+second goto github.com and create an account by signup.
+create repositoy also
+1. In vscode left side-->accounts--.sign in--> choose gothub and it will open browser and github login screen, enter username and password-->login-->authorize-->it will redirect to vscode.
+Actual process
+open terminal-->new terminal--goto specific folder
+1.git init-->it will initiate git into your folder
+2. git add . --> it will add all the files into git
+3.git commit -m "update"-->it will commit your git and added a message update
+
+First time you may endup git config errors to solve do following commands
+git config --global user.email "test.ozip@gmail.com"
+git config --global user.name "avinashrex"
+
+After this try git add . and git commit -m "update" again
+
+4. git remote add origin https://github.com/avinashrex/1st.git
+5. git push -u origin main
